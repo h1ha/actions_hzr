@@ -3,12 +3,12 @@ jobs:
  job1:
   runs-on: ubuntu-latest
   steps:
-    - run pwd
-    - run ls -la
-    - run echo "Hello World"
+    - run: pwd
+    - run: ls -la
+    - run: echo "Hello World"
   job2:
   runs-on: windows-latest
   steps:
-    - run dir
-    - run echo "Hello World"
-    
+    - run: dir
+    - run: echo "Hello World"
+
